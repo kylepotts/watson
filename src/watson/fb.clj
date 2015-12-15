@@ -1,7 +1,5 @@
 (ns watson.fb
-  (:gen-class)
-  (:use [clj-facebook-graph.auth])
-  (:require [fb-graph-api :as oauth]))
+  (:gen-class))
 
 (defn fb-reply
   []

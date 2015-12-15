@@ -4,8 +4,7 @@
                  [clj-http-lite "0.3.0"]
                  [environ "1.0.1"]
                  [org.clojure/data.json "0.2.6"]
-                 [stylefruits/gniazdo "0.4.1"]
-                 [fb-graph-api "0.1.0"]]
+                 [stylefruits/gniazdo "0.4.1"]]
   :javac-options ["-target" "1.6" "-source" "1.6" "-Xlint:-options"]
   :aot [watson.core]
   :main watson.core)
