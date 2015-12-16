@@ -31,9 +31,9 @@
 (def ws
   (atom nil))
 
-(defn on-recv
-  [msg]
-  (println msg))
+(defn iskyle?
+  [id]
+  (= id "U02GY6M0Z"))
 
 (defn snd-msg
   [msg-txt channel]
